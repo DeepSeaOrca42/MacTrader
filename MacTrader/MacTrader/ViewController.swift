@@ -8,13 +8,9 @@
 
 import Cocoa
 import Foundation
-import github "onmyway133/Arcane"
+// http://github.com/onmyway133/Arcane
 
 class ViewController: NSViewController {
-    
-    
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         

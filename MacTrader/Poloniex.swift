@@ -52,19 +52,20 @@ let task = URLSession.shared.dataTask(with: url) { (data,
 
 //Working Code below, DO NOT ALTER once
 
- class PReturnTicker {
+class PReturnTicker {
 
     let PReturnTickerUrl = URL(string: "wss://api2.poloniex.com/public?command=returnTicker")!
  
-    let task = URLSession.shared.dataTask(URL: PReturnTickerUrl)! { (Data, URLResponse, Error) -> in
+    let task = URLSession.shared.dataTask(with: PReturnTickerUrl)! { (Data, URLResponse, Error) in
         
-        let jsonDecoder = JSONDecoder()
+        resume()
         
         if let data = Data,
             (data: data, encoding: .utf8) {
             
+            let jsonDecoder = JSONDecoder()
+            
             let PReturnTicker = try? jsonDecoder.decode ([String: Stirng].self, from: data) {
-
             
             }
             

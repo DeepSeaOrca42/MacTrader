@@ -1,5 +1,5 @@
 //
-//  CMarketCap.swift
+//  CoinMarketCap.swift
 //  MacTrader
 //
 //  Created by Chris ---------- on 11/13/18.

@@ -9,13 +9,12 @@ import Cocoa
 import Foundation
 
 
-//Checks API server status
+// Checks API server status
 
-/* class CGPing {
-    
+class CGPing {
     let cgpurl = URL(string: "https://api.coingecko.com/api/v3/ping")!
     
-    let task = URLSession.shared.dataTask(with: cgpurl) { (Data, URLResponse, Error) in
+    let task = URLSession.shared.dataTask(with: cgpurl) { (data, response, error) in
         if let data = Data,
             let string = String(data: data, encoding: .utf8) {
             
@@ -26,7 +25,7 @@ import Foundation
     }
 }
 
- List all coins with data (name, price, market, developer, community, etc) supported coins id, name and symbol (no pagination required)
+// List all coins with data (name, price, market, developer, community, etc) supported coins id, name and symbol (no pagination required)
 
 class CGCoins {
     

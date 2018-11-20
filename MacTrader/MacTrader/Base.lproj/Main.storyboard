@@ -825,7 +825,7 @@
                                 <accessibility description="24 Hr Volume" help="24 Hr Volume"/>
                             </textField>
                             <stackView identifier="Dates" toolTip="Dates" distribution="fill" orientation="vertical" alignment="leading" spacing="0.0" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" fixedFrame="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gSp-p3-Uip" userLabel="Dates">
-                                <rect key="frame" x="1273" y="1180" width="1440" height="0.0"/>
+                                <rect key="frame" x="1273" y="1094" width="1440" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <accessibility description="Dates" help="Dates" identifier="Dates"/>
                             </stackView>
