@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BollingerBand</key>
+	<string>Blue</string>
+	<key>WeightedAverage</key>
+	<string>Grey</string>
+	<key>52WeekAverage</key>
+	<string>Brown</string>
+	<key>EMA1</key>
+	<string>Purple</string>
+	<key>EMA2</key>
+	<string>Turquoise</string>
+	<key>SMA1</key>
+	<string>Orange</string>
+	<key>SMA2</key>
+	<string>Yellow</string>
+	<key>IncreasingCandle</key>
+	<string>Green</string>
+	<key>DecreasingCandle</key>
+	<string>Red</string>
+	<key>PointScale</key>
+	<integer>10</integer>
+	<key>EMA1Days</key>
+	<integer>5</integer>
+	<key>EMA2Days</key>
+	<integer>50</integer>
+	<key>SMA1Days</key>
+	<integer>20</integer>
+	<key>SMA2Days</key>
+	<integer>100</integer>
+	<key>MLLock</key>
+	<true/>
+	<key>WatsonLock</key>
+	<true/>
+	<key>CandlestickChart</key>
+	<true/>
+	<key>DarkMode</key>
+	<true/>
+	<key>Speaking</key>
+	<true/>
+	<key>Summarization</key>
+	<true/>
+	<key>QRCodeGeneration</key>
+	<true/>
+	<key>QRCodeReading</key>
+	<true/>
+	<key>Account</key>
+	<string></string>
+	<key>Username</key>
+	<string></string>
+	<key>Password</key>
+	<string></string>
+	<key>Secret</key>
+	<string></string>
+	<key>Key</key>
+	<string></string>
+	<key>URL</key>
+	<string></string>
+	<key>2FAToken</key>
+	<string></string>
+</dict>
+</plist>
