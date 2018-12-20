@@ -15,8 +15,6 @@ import appkit
 
 // Default to CoinGecko UI
 
-// Create chart & control buttons with main UI
-
 // Load RSS feeds & Summarize
 
 // Create Tool pallate & remaining UI
