@@ -341,4 +341,3 @@ class CGExchangeVolume {
  
  /api/v3/search
  */
-*/
