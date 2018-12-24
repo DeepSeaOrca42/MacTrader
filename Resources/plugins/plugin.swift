@@ -1,6 +1,6 @@
 //
 //  plugin.swift
-//  
+//  Poloniex
 //  Written in Swift 4.2.1
 //  Created by Chris ---------- on 11/2/18.
 //
@@ -11,7 +11,7 @@ class pPlugin {
     
     /* Returns symbbol: id:x, name:x, txFee:x, minConf:x, depositAddress:x, disabled:x, delisted:x, frozen */
     
-    class pReturnCurrencies: -> Codeable {
+    class pReturnCurrencies: Codeable {
     var pRCSymbol = "1CR"
     var pRCId = 1
     var pRCName = "1CRedit"
@@ -54,7 +54,7 @@ class pPlugin {
 
 // Keychain Auth
 
-let PloginString = PloginString(format: %@:%@, Pusername!, Ppassword!)
+let PloginString = PloginString(format: %@, Pusername!, Ppassword!)
 
 // Check for server heartbeat
 
