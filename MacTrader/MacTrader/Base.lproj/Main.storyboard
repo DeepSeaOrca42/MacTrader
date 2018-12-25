@@ -2300,7 +2300,7 @@ DQ
                                     </gridCell>
                                     <gridCell row="4YB-fs-p8I" column="Mh4-5q-zXs" xPlacement="center" id="UUx-mO-Kbt">
                                         <textField key="contentView" identifier="Time" toolTip="Time" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="f8o-c4-B2u">
-                                            <rect key="frame" x="96" y="185" width="42" height="17"/>
+                                            <rect key="frame" x="99" y="185" width="42" height="17"/>
                                             <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" state="on" alignment="center" title="12:45" usesSingleLineMode="YES" id="RsF-gr-cYs">
                                                 <numberFormatter key="formatter" formatterBehavior="default10_4" usesGroupingSeparator="NO" groupingSize="0" minimumIntegerDigits="0" maximumIntegerDigits="42" id="0O9-oM-Mlh"/>
                                                 <font key="font" metaFont="system"/>
@@ -2327,7 +2327,7 @@ DQ
                                     </gridCell>
                                     <gridCell row="HxX-RI-lGj" column="Mh4-5q-zXs" id="QfR-rd-LJZ">
                                         <textField key="contentView" identifier="SPrice" toolTip="SPrice" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="PiH-Wn-f7l">
-                                            <rect key="frame" x="57" y="148" width="120" height="22"/>
+                                            <rect key="frame" x="62" y="148" width="115" height="22"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="22" id="0iQ-ub-Yh9"/>
                                                 <constraint firstAttribute="width" constant="120" id="3iz-Y1-qQm"/>
@@ -2375,7 +2375,7 @@ DQ
                                     </gridCell>
                                     <gridCell row="6AT-Qj-Yv7" column="Mh4-5q-zXs" id="Uda-nD-Zpa">
                                         <textField key="contentView" identifier="SAmount" toolTip="SAmount" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="gHe-ih-oUT">
-                                            <rect key="frame" x="57" y="111" width="120" height="22"/>
+                                            <rect key="frame" x="62" y="111" width="115" height="22"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="22" id="IRq-fX-Ymm"/>
                                                 <constraint firstAttribute="width" constant="120" id="rce-hY-6do"/>
@@ -2420,7 +2420,7 @@ DQ
                                     </gridCell>
                                     <gridCell row="Z5E-La-IUP" column="Mh4-5q-zXs" xPlacement="leading" id="JMC-ds-ppm">
                                         <textField key="contentView" identifier="SComm" toolTip="SComm" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ynp-qb-sOp">
-                                            <rect key="frame" x="55" y="78" width="111" height="17"/>
+                                            <rect key="frame" x="60" y="78" width="111" height="17"/>
                                             <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" state="on" alignment="center" title="12345.12345678" usesSingleLineMode="YES" id="OXs-1i-OQS">
                                                 <numberFormatter key="formatter" formatterBehavior="default10_4" numberStyle="decimal" minimumIntegerDigits="1" maximumIntegerDigits="2000000000" maximumFractionDigits="3" id="ZUC-cx-kha">
                                                     <real key="minimum" value="8"/>
@@ -2460,7 +2460,7 @@ DQ
                                     </gridCell>
                                     <gridCell row="UGj-Um-Nw2" column="Mh4-5q-zXs" id="vCL-QG-6C1">
                                         <textField key="contentView" identifier="STotal" toolTip="STotal" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ndY-aL-65w">
-                                            <rect key="frame" x="60" y="40" width="115" height="22"/>
+                                            <rect key="frame" x="62" y="40" width="115" height="22"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="120" id="KZF-cf-pnB"/>
                                                 <constraint firstAttribute="height" constant="22" id="xe4-29-waR"/>
@@ -2495,7 +2495,7 @@ DQ
                                     <gridCell row="MXA-vB-uTr" column="42F-zU-DNT" xPlacement="leading" id="92t-MR-w9H"/>
                                     <gridCell row="MXA-vB-uTr" column="Mh4-5q-zXs" id="ZyS-Gh-Gwf">
                                         <button key="contentView" identifier="SOK" toolTip="SOK" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="EfM-8n-gen">
-                                            <rect key="frame" x="77" y="-2" width="81" height="32"/>
+                                            <rect key="frame" x="79" y="-2" width="81" height="32"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="21" id="SYw-Nv-tTt"/>
                                                 <constraint firstAttribute="width" constant="69" id="teg-sm-lg0"/>
@@ -3328,7 +3328,7 @@ DQ
                                 <gridCells>
                                     <gridCell row="2jt-Bo-4tJ" column="io3-fi-5j8" xPlacement="center" yPlacement="center" id="b4X-EE-ZBL">
                                         <textField key="contentView" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Dp6-Oo-84E">
-                                            <rect key="frame" x="18" y="23" width="85" height="19"/>
+                                            <rect key="frame" x="-2" y="23" width="124" height="19"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="22" id="2Ro-JG-RHm"/>
                                                 <constraint firstAttribute="width" constant="120" id="kWr-ow-2FR"/>
