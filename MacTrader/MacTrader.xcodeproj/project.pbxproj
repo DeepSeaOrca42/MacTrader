@@ -7,77 +7,74 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		85082E5D2198E9B600E7788A /* FirstRun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85082E5C2198E9B600E7788A /* FirstRun.swift */; };
-		85730BD6219FE1DF0078D541 /* Poloniex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85730BD5219FE1DF0078D541 /* Poloniex.swift */; };
-		85CEE473218DF22C00ED779B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CEE472218DF22C00ED779B /* AppDelegate.swift */; };
-		85CEE475218DF22C00ED779B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CEE474218DF22C00ED779B /* ViewController.swift */; };
-		85CEE477218DF22E00ED779B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85CEE476218DF22E00ED779B /* Assets.xcassets */; };
-		85CEE47A218DF22E00ED779B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85CEE478218DF22E00ED779B /* Main.storyboard */; settings = {ASSET_TAGS = (Chart, ); }; };
-		85CEE486218DF22E00ED779B /* MacTraderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CEE485218DF22E00ED779B /* MacTraderTests.swift */; };
-		85CEE491218DF22E00ED779B /* MacTraderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CEE490218DF22E00ED779B /* MacTraderUITests.swift */; };
-		85DE892B21983E9F00F0D26D /* CoinGecko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DE892A21983E9F00F0D26D /* CoinGecko.swift */; };
-		85E0BD76219AF3ED00FBE476 /* CMarketCap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E0BD75219AF3ED00FBE476 /* CMarketCap.swift */; };
-		85E0BD7A219AF4B400FBE476 /* RSS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E0BD79219AF4B400FBE476 /* RSS.swift */; };
-		85E0BD7C219AF55100FBE476 /* Grapher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E0BD7B219AF55100FBE476 /* Grapher.swift */; };
-		85E0BD7E219AF78000FBE476 /* Analiser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E0BD7D219AF78000FBE476 /* Analiser.swift */; };
+		852AA2CD21CDEFC4007B8E62 /* CoinGecko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852AA2CC21CDEFC4007B8E62 /* CoinGecko.swift */; };
+		8562ECA221CB7ECA009DAB31 /* MAMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8562ECA121CB7ECA009DAB31 /* MAMath.swift */; };
+		8587632F21BE958C0023E931 /* MarketTable.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8587632E21BE958C0023E931 /* MarketTable.plist */; };
+		8595B49621C6DA8C00A8A742 /* CoreField.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8595B49521C6DA8C00A8A742 /* CoreField.plist */; };
+		859E8B8921CE31F600AF6950 /* CoinMarketCap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859E8B8821CE31F600AF6950 /* CoinMarketCap.swift */; };
+		85CBB4A521BE446C003869C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CBB4A421BE446C003869C6 /* AppDelegate.swift */; };
+		85CBB4A721BE446C003869C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CBB4A621BE446C003869C6 /* ViewController.swift */; };
+		85CBB4A921BE446D003869C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85CBB4A821BE446D003869C6 /* Assets.xcassets */; };
+		85CBB4AC21BE446D003869C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85CBB4AA21BE446D003869C6 /* Main.storyboard */; };
+		85CBB4B821BE446E003869C6 /* MacTraderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CBB4B721BE446D003869C6 /* MacTraderTests.swift */; };
+		85CBB4C321BE446E003869C6 /* MacTraderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CBB4C221BE446E003869C6 /* MacTraderUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		85CEE482218DF22E00ED779B /* PBXContainerItemProxy */ = {
+		85CBB4B421BE446D003869C6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 85CEE467218DF22C00ED779B /* Project object */;
+			containerPortal = 85CBB49921BE446C003869C6 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 85CEE46E218DF22C00ED779B;
+			remoteGlobalIDString = 85CBB4A021BE446C003869C6;
 			remoteInfo = MacTrader;
 		};
-		85CEE48D218DF22E00ED779B /* PBXContainerItemProxy */ = {
+		85CBB4BF21BE446E003869C6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 85CEE467218DF22C00ED779B /* Project object */;
+			containerPortal = 85CBB49921BE446C003869C6 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 85CEE46E218DF22C00ED779B;
+			remoteGlobalIDString = 85CBB4A021BE446C003869C6;
 			remoteInfo = MacTrader;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		85082E5C2198E9B600E7788A /* FirstRun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstRun.swift; sourceTree = "<group>"; };
-		85730BD5219FE1DF0078D541 /* Poloniex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poloniex.swift; sourceTree = "<group>"; };
-		85CEE46F218DF22C00ED779B /* MacTrader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacTrader.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		85CEE472218DF22C00ED779B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		85CEE474218DF22C00ED779B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		85CEE476218DF22E00ED779B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		85CEE479218DF22E00ED779B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		85CEE47B218DF22E00ED779B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		85CEE47C218DF22E00ED779B /* MacTrader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacTrader.entitlements; sourceTree = "<group>"; };
-		85CEE481218DF22E00ED779B /* MacTraderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacTraderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		85CEE485218DF22E00ED779B /* MacTraderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacTraderTests.swift; sourceTree = "<group>"; };
-		85CEE487218DF22E00ED779B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		85CEE48C218DF22E00ED779B /* MacTraderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacTraderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		85CEE490218DF22E00ED779B /* MacTraderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacTraderUITests.swift; sourceTree = "<group>"; };
-		85CEE492218DF22E00ED779B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		85DE892A21983E9F00F0D26D /* CoinGecko.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinGecko.swift; sourceTree = "<group>"; };
-		85E0BD75219AF3ED00FBE476 /* CMarketCap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMarketCap.swift; sourceTree = "<group>"; };
-		85E0BD79219AF4B400FBE476 /* RSS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSS.swift; sourceTree = "<group>"; };
-		85E0BD7B219AF55100FBE476 /* Grapher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grapher.swift; sourceTree = "<group>"; };
-		85E0BD7D219AF78000FBE476 /* Analiser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analiser.swift; sourceTree = "<group>"; };
+		852AA2CC21CDEFC4007B8E62 /* CoinGecko.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinGecko.swift; sourceTree = "<group>"; };
+		8562ECA121CB7ECA009DAB31 /* MAMath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAMath.swift; sourceTree = "<group>"; };
+		8587632E21BE958C0023E931 /* MarketTable.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = MarketTable.plist; sourceTree = "<group>"; };
+		8595B49521C6DA8C00A8A742 /* CoreField.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = CoreField.plist; sourceTree = "<group>"; };
+		859E8B8821CE31F600AF6950 /* CoinMarketCap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinMarketCap.swift; sourceTree = "<group>"; };
+		85A6DBDA21C698860026F9AE /* Prefs.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Prefs.plist; sourceTree = "<group>"; };
+		85CBB4A121BE446C003869C6 /* MacTrader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacTrader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85CBB4A421BE446C003869C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		85CBB4A621BE446C003869C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		85CBB4A821BE446D003869C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85CBB4AB21BE446D003869C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85CBB4AD21BE446D003869C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85CBB4AE21BE446D003869C6 /* MacTrader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacTrader.entitlements; sourceTree = "<group>"; };
+		85CBB4B321BE446D003869C6 /* MacTraderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacTraderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85CBB4B721BE446D003869C6 /* MacTraderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacTraderTests.swift; sourceTree = "<group>"; };
+		85CBB4B921BE446E003869C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85CBB4BE21BE446E003869C6 /* MacTraderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacTraderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85CBB4C221BE446E003869C6 /* MacTraderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacTraderUITests.swift; sourceTree = "<group>"; };
+		85CBB4C421BE446E003869C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		85CEE46C218DF22C00ED779B /* Frameworks */ = {
+		85CBB49E21BE446C003869C6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		85CEE47E218DF22E00ED779B /* Frameworks */ = {
+		85CBB4B021BE446D003869C6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		85CEE489218DF22E00ED779B /* Frameworks */ = {
+		85CBB4BB21BE446E003869C6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -87,60 +84,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		85CEE466218DF22C00ED779B = {
+		85A6DBD921C6986B0026F9AE /* Exchanges */ = {
 			isa = PBXGroup;
 			children = (
-				85730BD5219FE1DF0078D541 /* Poloniex.swift */,
-				85E0BD79219AF4B400FBE476 /* RSS.swift */,
-				85E0BD7B219AF55100FBE476 /* Grapher.swift */,
-				85E0BD7D219AF78000FBE476 /* Analiser.swift */,
-				85CEE471218DF22C00ED779B /* MacTrader */,
-				85CEE484218DF22E00ED779B /* MacTraderTests */,
-				85CEE48F218DF22E00ED779B /* MacTraderUITests */,
-				85CEE470218DF22C00ED779B /* Products */,
+				852AA2CC21CDEFC4007B8E62 /* CoinGecko.swift */,
+				859E8B8821CE31F600AF6950 /* CoinMarketCap.swift */,
+			);
+			path = Exchanges;
+			sourceTree = "<group>";
+		};
+		85CBB49821BE446C003869C6 = {
+			isa = PBXGroup;
+			children = (
+				85CBB4A321BE446C003869C6 /* MacTrader */,
+				85CBB4B621BE446D003869C6 /* MacTraderTests */,
+				85CBB4C121BE446E003869C6 /* MacTraderUITests */,
+				85CBB4A221BE446C003869C6 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		85CEE470218DF22C00ED779B /* Products */ = {
+		85CBB4A221BE446C003869C6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				85CEE46F218DF22C00ED779B /* MacTrader.app */,
-				85CEE481218DF22E00ED779B /* MacTraderTests.xctest */,
-				85CEE48C218DF22E00ED779B /* MacTraderUITests.xctest */,
+				85CBB4A121BE446C003869C6 /* MacTrader.app */,
+				85CBB4B321BE446D003869C6 /* MacTraderTests.xctest */,
+				85CBB4BE21BE446E003869C6 /* MacTraderUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		85CEE471218DF22C00ED779B /* MacTrader */ = {
+		85CBB4A321BE446C003869C6 /* MacTrader */ = {
 			isa = PBXGroup;
 			children = (
-				85CEE472218DF22C00ED779B /* AppDelegate.swift */,
-				85CEE474218DF22C00ED779B /* ViewController.swift */,
-				85CEE476218DF22E00ED779B /* Assets.xcassets */,
-				85DE892A21983E9F00F0D26D /* CoinGecko.swift */,
-				85082E5C2198E9B600E7788A /* FirstRun.swift */,
-				85CEE478218DF22E00ED779B /* Main.storyboard */,
-				85CEE47B218DF22E00ED779B /* Info.plist */,
-				85CEE47C218DF22E00ED779B /* MacTrader.entitlements */,
-				85E0BD75219AF3ED00FBE476 /* CMarketCap.swift */,
+				85A6DBD921C6986B0026F9AE /* Exchanges */,
+				85CBB4A421BE446C003869C6 /* AppDelegate.swift */,
+				85CBB4A621BE446C003869C6 /* ViewController.swift */,
+				85CBB4AA21BE446D003869C6 /* Main.storyboard */,
+				8595B49521C6DA8C00A8A742 /* CoreField.plist */,
+				8562ECA121CB7ECA009DAB31 /* MAMath.swift */,
+				85A6DBDA21C698860026F9AE /* Prefs.plist */,
+				8587632E21BE958C0023E931 /* MarketTable.plist */,
+				85CBB4A821BE446D003869C6 /* Assets.xcassets */,
+				85CBB4AD21BE446D003869C6 /* Info.plist */,
+				85CBB4AE21BE446D003869C6 /* MacTrader.entitlements */,
 			);
 			path = MacTrader;
 			sourceTree = "<group>";
 		};
-		85CEE484218DF22E00ED779B /* MacTraderTests */ = {
+		85CBB4B621BE446D003869C6 /* MacTraderTests */ = {
 			isa = PBXGroup;
 			children = (
-				85CEE485218DF22E00ED779B /* MacTraderTests.swift */,
-				85CEE487218DF22E00ED779B /* Info.plist */,
+				85CBB4B721BE446D003869C6 /* MacTraderTests.swift */,
+				85CBB4B921BE446E003869C6 /* Info.plist */,
 			);
 			path = MacTraderTests;
 			sourceTree = "<group>";
 		};
-		85CEE48F218DF22E00ED779B /* MacTraderUITests */ = {
+		85CBB4C121BE446E003869C6 /* MacTraderUITests */ = {
 			isa = PBXGroup;
 			children = (
-				85CEE490218DF22E00ED779B /* MacTraderUITests.swift */,
-				85CEE492218DF22E00ED779B /* Info.plist */,
+				85CBB4C221BE446E003869C6 /* MacTraderUITests.swift */,
+				85CBB4C421BE446E003869C6 /* Info.plist */,
 			);
 			path = MacTraderUITests;
 			sourceTree = "<group>";
@@ -148,13 +152,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		85CEE46E218DF22C00ED779B /* MacTrader */ = {
+		85CBB4A021BE446C003869C6 /* MacTrader */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 85CEE495218DF22E00ED779B /* Build configuration list for PBXNativeTarget "MacTrader" */;
+			buildConfigurationList = 85CBB4C721BE446E003869C6 /* Build configuration list for PBXNativeTarget "MacTrader" */;
 			buildPhases = (
-				85CEE46B218DF22C00ED779B /* Sources */,
-				85CEE46C218DF22C00ED779B /* Frameworks */,
-				85CEE46D218DF22C00ED779B /* Resources */,
+				85CBB49D21BE446C003869C6 /* Sources */,
+				85CBB49E21BE446C003869C6 /* Frameworks */,
+				85CBB49F21BE446C003869C6 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -162,72 +166,72 @@
 			);
 			name = MacTrader;
 			productName = MacTrader;
-			productReference = 85CEE46F218DF22C00ED779B /* MacTrader.app */;
+			productReference = 85CBB4A121BE446C003869C6 /* MacTrader.app */;
 			productType = "com.apple.product-type.application";
 		};
-		85CEE480218DF22E00ED779B /* MacTraderTests */ = {
+		85CBB4B221BE446D003869C6 /* MacTraderTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 85CEE498218DF22E00ED779B /* Build configuration list for PBXNativeTarget "MacTraderTests" */;
+			buildConfigurationList = 85CBB4CA21BE446E003869C6 /* Build configuration list for PBXNativeTarget "MacTraderTests" */;
 			buildPhases = (
-				85CEE47D218DF22E00ED779B /* Sources */,
-				85CEE47E218DF22E00ED779B /* Frameworks */,
-				85CEE47F218DF22E00ED779B /* Resources */,
+				85CBB4AF21BE446D003869C6 /* Sources */,
+				85CBB4B021BE446D003869C6 /* Frameworks */,
+				85CBB4B121BE446D003869C6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				85CEE483218DF22E00ED779B /* PBXTargetDependency */,
+				85CBB4B521BE446D003869C6 /* PBXTargetDependency */,
 			);
 			name = MacTraderTests;
 			productName = MacTraderTests;
-			productReference = 85CEE481218DF22E00ED779B /* MacTraderTests.xctest */;
+			productReference = 85CBB4B321BE446D003869C6 /* MacTraderTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		85CEE48B218DF22E00ED779B /* MacTraderUITests */ = {
+		85CBB4BD21BE446E003869C6 /* MacTraderUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 85CEE49B218DF22E00ED779B /* Build configuration list for PBXNativeTarget "MacTraderUITests" */;
+			buildConfigurationList = 85CBB4CD21BE446E003869C6 /* Build configuration list for PBXNativeTarget "MacTraderUITests" */;
 			buildPhases = (
-				85CEE488218DF22E00ED779B /* Sources */,
-				85CEE489218DF22E00ED779B /* Frameworks */,
-				85CEE48A218DF22E00ED779B /* Resources */,
+				85CBB4BA21BE446E003869C6 /* Sources */,
+				85CBB4BB21BE446E003869C6 /* Frameworks */,
+				85CBB4BC21BE446E003869C6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				85CEE48E218DF22E00ED779B /* PBXTargetDependency */,
+				85CBB4C021BE446E003869C6 /* PBXTargetDependency */,
 			);
 			name = MacTraderUITests;
 			productName = MacTraderUITests;
-			productReference = 85CEE48C218DF22E00ED779B /* MacTraderUITests.xctest */;
+			productReference = 85CBB4BE21BE446E003869C6 /* MacTraderUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		85CEE467218DF22C00ED779B /* Project object */ = {
+		85CBB49921BE446C003869C6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				KnownAssetTags = (
-					Chart,
+					ExchangeID,
 				);
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Chris ----------";
 				TargetAttributes = {
-					85CEE46E218DF22C00ED779B = {
+					85CBB4A021BE446C003869C6 = {
 						CreatedOnToolsVersion = 10.1;
 					};
-					85CEE480218DF22E00ED779B = {
+					85CBB4B221BE446D003869C6 = {
 						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 85CEE46E218DF22C00ED779B;
+						TestTargetID = 85CBB4A021BE446C003869C6;
 					};
-					85CEE48B218DF22E00ED779B = {
+					85CBB4BD21BE446E003869C6 = {
 						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 85CEE46E218DF22C00ED779B;
+						TestTargetID = 85CBB4A021BE446C003869C6;
 					};
 				};
 			};
-			buildConfigurationList = 85CEE46A218DF22C00ED779B /* Build configuration list for PBXProject "MacTrader" */;
+			buildConfigurationList = 85CBB49C21BE446C003869C6 /* Build configuration list for PBXProject "MacTrader" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -235,36 +239,38 @@
 				en,
 				Base,
 			);
-			mainGroup = 85CEE466218DF22C00ED779B;
-			productRefGroup = 85CEE470218DF22C00ED779B /* Products */;
+			mainGroup = 85CBB49821BE446C003869C6;
+			productRefGroup = 85CBB4A221BE446C003869C6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				85CEE46E218DF22C00ED779B /* MacTrader */,
-				85CEE480218DF22E00ED779B /* MacTraderTests */,
-				85CEE48B218DF22E00ED779B /* MacTraderUITests */,
+				85CBB4A021BE446C003869C6 /* MacTrader */,
+				85CBB4B221BE446D003869C6 /* MacTraderTests */,
+				85CBB4BD21BE446E003869C6 /* MacTraderUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		85CEE46D218DF22C00ED779B /* Resources */ = {
+		85CBB49F21BE446C003869C6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85CEE477218DF22E00ED779B /* Assets.xcassets in Resources */,
-				85CEE47A218DF22E00ED779B /* Main.storyboard in Resources */,
+				85CBB4A921BE446D003869C6 /* Assets.xcassets in Resources */,
+				8595B49621C6DA8C00A8A742 /* CoreField.plist in Resources */,
+				85CBB4AC21BE446D003869C6 /* Main.storyboard in Resources */,
+				8587632F21BE958C0023E931 /* MarketTable.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		85CEE47F218DF22E00ED779B /* Resources */ = {
+		85CBB4B121BE446D003869C6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		85CEE48A218DF22E00ED779B /* Resources */ = {
+		85CBB4BC21BE446E003869C6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -274,58 +280,54 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		85CEE46B218DF22C00ED779B /* Sources */ = {
+		85CBB49D21BE446C003869C6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85730BD6219FE1DF0078D541 /* Poloniex.swift in Sources */,
-				85E0BD7E219AF78000FBE476 /* Analiser.swift in Sources */,
-				85CEE475218DF22C00ED779B /* ViewController.swift in Sources */,
-				85CEE473218DF22C00ED779B /* AppDelegate.swift in Sources */,
-				85E0BD7A219AF4B400FBE476 /* RSS.swift in Sources */,
-				85082E5D2198E9B600E7788A /* FirstRun.swift in Sources */,
-				85E0BD76219AF3ED00FBE476 /* CMarketCap.swift in Sources */,
-				85E0BD7C219AF55100FBE476 /* Grapher.swift in Sources */,
-				85DE892B21983E9F00F0D26D /* CoinGecko.swift in Sources */,
+				852AA2CD21CDEFC4007B8E62 /* CoinGecko.swift in Sources */,
+				85CBB4A721BE446C003869C6 /* ViewController.swift in Sources */,
+				8562ECA221CB7ECA009DAB31 /* MAMath.swift in Sources */,
+				85CBB4A521BE446C003869C6 /* AppDelegate.swift in Sources */,
+				859E8B8921CE31F600AF6950 /* CoinMarketCap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		85CEE47D218DF22E00ED779B /* Sources */ = {
+		85CBB4AF21BE446D003869C6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85CEE486218DF22E00ED779B /* MacTraderTests.swift in Sources */,
+				85CBB4B821BE446E003869C6 /* MacTraderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		85CEE488218DF22E00ED779B /* Sources */ = {
+		85CBB4BA21BE446E003869C6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85CEE491218DF22E00ED779B /* MacTraderUITests.swift in Sources */,
+				85CBB4C321BE446E003869C6 /* MacTraderUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		85CEE483218DF22E00ED779B /* PBXTargetDependency */ = {
+		85CBB4B521BE446D003869C6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 85CEE46E218DF22C00ED779B /* MacTrader */;
-			targetProxy = 85CEE482218DF22E00ED779B /* PBXContainerItemProxy */;
+			target = 85CBB4A021BE446C003869C6 /* MacTrader */;
+			targetProxy = 85CBB4B421BE446D003869C6 /* PBXContainerItemProxy */;
 		};
-		85CEE48E218DF22E00ED779B /* PBXTargetDependency */ = {
+		85CBB4C021BE446E003869C6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 85CEE46E218DF22C00ED779B /* MacTrader */;
-			targetProxy = 85CEE48D218DF22E00ED779B /* PBXContainerItemProxy */;
+			target = 85CBB4A021BE446C003869C6 /* MacTrader */;
+			targetProxy = 85CBB4BF21BE446E003869C6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		85CEE478218DF22E00ED779B /* Main.storyboard */ = {
+		85CBB4AA21BE446D003869C6 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				85CEE479218DF22E00ED779B /* Base */,
+				85CBB4AB21BE446D003869C6 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -333,7 +335,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		85CEE493218DF22E00ED779B /* Debug */ = {
+		85CBB4C521BE446E003869C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -394,7 +396,7 @@
 			};
 			name = Debug;
 		};
-		85CEE494218DF22E00ED779B /* Release */ = {
+		85CBB4C621BE446E003869C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -448,7 +450,7 @@
 			};
 			name = Release;
 		};
-		85CEE496218DF22E00ED779B /* Debug */ = {
+		85CBB4C821BE446E003869C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -466,7 +468,7 @@
 			};
 			name = Debug;
 		};
-		85CEE497218DF22E00ED779B /* Release */ = {
+		85CBB4C921BE446E003869C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -484,7 +486,7 @@
 			};
 			name = Release;
 		};
-		85CEE499218DF22E00ED779B /* Debug */ = {
+		85CBB4CB21BE446E003869C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -505,7 +507,7 @@
 			};
 			name = Debug;
 		};
-		85CEE49A218DF22E00ED779B /* Release */ = {
+		85CBB4CC21BE446E003869C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -526,7 +528,7 @@
 			};
 			name = Release;
 		};
-		85CEE49C218DF22E00ED779B /* Debug */ = {
+		85CBB4CE21BE446E003869C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -546,7 +548,7 @@
 			};
 			name = Debug;
 		};
-		85CEE49D218DF22E00ED779B /* Release */ = {
+		85CBB4CF21BE446E003869C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -569,43 +571,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		85CEE46A218DF22C00ED779B /* Build configuration list for PBXProject "MacTrader" */ = {
+		85CBB49C21BE446C003869C6 /* Build configuration list for PBXProject "MacTrader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				85CEE493218DF22E00ED779B /* Debug */,
-				85CEE494218DF22E00ED779B /* Release */,
+				85CBB4C521BE446E003869C6 /* Debug */,
+				85CBB4C621BE446E003869C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		85CEE495218DF22E00ED779B /* Build configuration list for PBXNativeTarget "MacTrader" */ = {
+		85CBB4C721BE446E003869C6 /* Build configuration list for PBXNativeTarget "MacTrader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				85CEE496218DF22E00ED779B /* Debug */,
-				85CEE497218DF22E00ED779B /* Release */,
+				85CBB4C821BE446E003869C6 /* Debug */,
+				85CBB4C921BE446E003869C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		85CEE498218DF22E00ED779B /* Build configuration list for PBXNativeTarget "MacTraderTests" */ = {
+		85CBB4CA21BE446E003869C6 /* Build configuration list for PBXNativeTarget "MacTraderTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				85CEE499218DF22E00ED779B /* Debug */,
-				85CEE49A218DF22E00ED779B /* Release */,
+				85CBB4CB21BE446E003869C6 /* Debug */,
+				85CBB4CC21BE446E003869C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		85CEE49B218DF22E00ED779B /* Build configuration list for PBXNativeTarget "MacTraderUITests" */ = {
+		85CBB4CD21BE446E003869C6 /* Build configuration list for PBXNativeTarget "MacTraderUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				85CEE49C218DF22E00ED779B /* Debug */,
-				85CEE49D218DF22E00ED779B /* Release */,
+				85CBB4CE21BE446E003869C6 /* Debug */,
+				85CBB4CF21BE446E003869C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 85CEE467218DF22C00ED779B /* Project object */;
+	rootObject = 85CBB49921BE446C003869C6 /* Project object */;
 }

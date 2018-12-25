@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ExchangeID</key>
+	<string></string>
+	<key>MarketIndicator</key>
+	<string></string>
+	<key>24 Hr Volume</key>
+	<integer>0</integer>
+	<key>24 Hr Change</key>
+	<integer>0</integer>
+	<key>24 Hr High</key>
+	<integer>0</integer>
+	<key>24 Hr Low</key>
+	<integer>0</integer>
+	<key>Last Price</key>
+	<integer>0</integer>
+	<key>Balance</key>
+	<integer>0</integer>
+	<key>BallanceCID</key>
+	<string></string>
+	<key>Buy Price</key>
+	<integer>0</integer>
+	<key>BPriceCID</key>
+	<string></string>
+	<key>BAmount</key>
+	<integer>0</integer>
+	<key>BAmountCID</key>
+	<string></string>
+	<key>BComm</key>
+	<integer>0</integer>
+	<key>BCommCID</key>
+	<string></string>
+	<key>BTotal</key>
+	<integer>0</integer>
+	<key>BTotalCID</key>
+	<string></string>
+	<key>SLStop</key>
+	<integer>0</integer>
+	<key>SLStopCID</key>
+	<string></string>
+	<key>SLLimit</key>
+	<integer>0</integer>
+	<key>SLLimitCID</key>
+	<string></string>
+	<key>SLAmount</key>
+	<integer>0</integer>
+	<key>SLAmountCID</key>
+	<string></string>
+	<key>SLComm</key>
+	<integer>0</integer>
+	<key>SLCommCID</key>
+	<string></string>
+	<key>SLTotal</key>
+	<integer>0</integer>
+	<key>SLTotalCID</key>
+	<string></string>
+	<key>SPrice</key>
+	<integer>0</integer>
+	<key>SPrice CID</key>
+	<string></string>
+	<key>SAmount</key>
+	<integer>0</integer>
+	<key>SAmountCID</key>
+	<string></string>
+	<key>SComm</key>
+	<integer>0</integer>
+	<key>SCommCID</key>
+	<string></string>
+	<key>STotal</key>
+	<integer>0</integer>
+	<key>STotalCID</key>
+	<string></string>
+	<key>Time</key>
+	<string></string>
+</dict>
+</plist>

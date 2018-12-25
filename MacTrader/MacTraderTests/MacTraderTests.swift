@@ -2,7 +2,7 @@
 //  MacTraderTests.swift
 //  MacTraderTests
 //
-//  Created by Chris ---------- on 11/3/18.
+//  Created by Chris ---------- on 12/10/18.
 //  Copyright © 2018 Chris ----------. All rights reserved.
 //
 
