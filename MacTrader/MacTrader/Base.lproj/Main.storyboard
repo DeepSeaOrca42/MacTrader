@@ -1056,6 +1056,9 @@ DQ
 </string>
                                 </buttonCell>
                                 <accessibility description="ColorsOK" help="ColorsOK" identifier="ColorsOK"/>
+                                <connections>
+                                    <action selector="dismissController:" target="nws-dT-uMH" id="gBL-mA-gta"/>
+                                </connections>
                             </button>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="wLM-xv-pgT">
                                 <rect key="frame" x="258" y="322" width="75" height="23"/>
@@ -1402,6 +1405,9 @@ DQ
 </string>
                                 </buttonCell>
                                 <accessibility description="ChecksOK" help="ChecksOK"/>
+                                <connections>
+                                    <action selector="dismissController:" target="iKT-Te-mEb" id="2ZB-s5-Uyd"/>
+                                </connections>
                             </button>
                             <button identifier="MLLock" toolTip="MLLock" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="UgW-cI-xH1">
                                 <rect key="frame" x="18" y="391" width="175" height="23"/>
@@ -1930,6 +1936,9 @@ DQ
 </string>
                                 </buttonCell>
                                 <accessibility description="AccountsOK" help="AccountsOK" identifier="AccountsOK"/>
+                                <connections>
+                                    <action selector="dismissController:" target="IPT-de-gV8" id="diJ-38-7xL"/>
+                                </connections>
                             </button>
                         </subviews>
                         <constraints>
