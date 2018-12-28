@@ -8,10 +8,12 @@
 
 import Foundation
 
-
-
 // set "ExchangeID" to "CoinGecko"
-//let exchangeID = "CoinGecko"
-//myLabel.stringValue = @"My Cool Text";
+// let exchangeID = "CoinGecko"
+// myLabel.stringValue = @"My Cool Text";
+// exchangeID.stringValue = @"CoinGecko"
 
+class setupCoinGecko {
+    var ExchangeIDTitle = "CoinGecko"
 
+}

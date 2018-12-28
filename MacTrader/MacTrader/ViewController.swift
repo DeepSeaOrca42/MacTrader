@@ -8,7 +8,7 @@
 
 import Cocoa
 import Foundation
-
+/*
 class ViewController: NSViewController {
     
     private var titleValueArray: NSArray!
@@ -31,19 +31,15 @@ class ViewController: NSViewController {
             print(subTitleArray[count])
             
         }
-        
-        
-        
-        
-        
+ 
     //MacTrader/Prefs.plist
-        
-        
-   
-        
+ 
     }
+ 
+
     @IBOutlet weak var ExchangeID: NSTextField!
-    let exchangeID = "ExchangeID"
+    var ExchangeIDTitle: String
+    ExchangeID.cell.placeholderAttributedString = ExchangeIDTitle!
     
     @IBOutlet weak var MarketIndicator: NSTextField!
     let marketIndicator = "MarketIndicator"
@@ -172,3 +168,4 @@ class ViewController: NSViewController {
 
 
 }
+*/

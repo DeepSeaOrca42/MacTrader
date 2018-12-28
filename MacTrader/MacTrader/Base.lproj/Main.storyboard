@@ -666,18 +666,40 @@
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <menu key="submenu" title="Accounts" id="pbH-g7-u1I">
                                     <items>
-                                        <menuItem title="CoinGecko" state="on" id="fa8-UC-eOG">
+                                        <menuItem title="CoinGecko" state="on" identifier="CoinGecko" toolTip="CoinGecko" id="fa8-UC-eOG">
                                             <modifierMask key="keyEquivalentModifierMask"/>
+                                            <accessibility description="CoinGecko" help="CoinGecko" identifier="CoinGecko"/>
                                         </menuItem>
-                                        <menuItem title="CoinMarketCap" id="ywj-xC-5sT">
+                                        <menuItem title="CoinMarketCap" identifier="CoinMarketCap" toolTip="CoinMarketCap" id="ywj-xC-5sT">
                                             <modifierMask key="keyEquivalentModifierMask"/>
+                                            <accessibility description="CoinMarketCap" help="CoinMarketCap" identifier="CoinMarketCap"/>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="NLf-WP-OaX"/>
-                                        <menuItem title="Poloniex" id="Dtz-8o-Df5">
+                                        <menuItem title="Poloniex" id="4dq-wf-Nim">
                                             <modifierMask key="keyEquivalentModifierMask"/>
+                                            <menu key="submenu" title="Poloniex" id="ACm-3Z-596">
+                                                <items>
+                                                    <menuItem title="History" id="ncy-5c-XBU">
+                                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                                    </menuItem>
+                                                    <menuItem title="Wallet" id="nyT-A1-qMp">
+                                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                                    </menuItem>
+                                                </items>
+                                            </menu>
                                         </menuItem>
-                                        <menuItem title="CoinBase" id="rXo-i2-2Ey">
+                                        <menuItem title="Coinbase" id="owA-f8-oWv">
                                             <modifierMask key="keyEquivalentModifierMask"/>
+                                            <menu key="submenu" title="Coinbase" id="5Pr-Uy-vob">
+                                                <items>
+                                                    <menuItem title="History" id="Qj5-MT-h7T">
+                                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                                    </menuItem>
+                                                    <menuItem title="Wallet" id="J2g-9J-cyh">
+                                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                                    </menuItem>
+                                                </items>
+                                            </menu>
                                         </menuItem>
                                     </items>
                                 </menu>
@@ -3211,10 +3233,10 @@ DQ
             </objects>
             <point key="canvasLocation" x="1317" y="1188"/>
         </scene>
-        <!--Chart-->
+        <!--ChartView-->
         <scene sceneID="AwQ-06-HVf">
             <objects>
-                <viewController title="Chart" identifier="Chat" storyboardIdentifier="Chart" id="Wnm-Ye-eTv" sceneMemberID="viewController">
+                <viewController title="ChartView" identifier="Chat" storyboardIdentifier="Chart" id="Wnm-Ye-eTv" sceneMemberID="viewController">
                     <view key="view" identifier="Chart" toolTip="Chart" id="URZ-0S-1xG" customClass="ChartView">
                         <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3270,10 +3292,10 @@ DQ
             </objects>
             <point key="canvasLocation" x="615" y="1047"/>
         </scene>
-        <!--View Controller-->
+        <!--Exchange Pair-->
         <scene sceneID="9pO-US-Tei">
             <objects>
-                <viewController id="g92-P9-ARp" sceneMemberID="viewController">
+                <viewController title="Exchange Pair" id="g92-P9-ARp" sceneMemberID="viewController">
                     <view key="view" identifier="Exchange&amp;CID" toolTip="Exchange&amp;CID" id="1HL-96-jK7">
                         <rect key="frame" x="0.0" y="0.0" width="218" height="83"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
@@ -3293,13 +3315,13 @@ DQ
                                 <gridCells>
                                     <gridCell row="Td6-oP-nPp" column="8EI-Uk-vsF" xPlacement="center" yPlacement="center" id="ect-qJ-xnu">
                                         <textField key="contentView" identifier="ExchangeID" toolTip="ExchangeID" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="9P4-7k-dnp">
-                                            <rect key="frame" x="42" y="23" width="134" height="19"/>
+                                            <rect key="frame" x="42" y="22" width="134" height="21"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="130" id="7jQ-yl-0rp"/>
                                                 <constraint firstAttribute="height" constant="22" id="S1v-Z5-xFg"/>
                                             </constraints>
-                                            <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" toolTip="ExchangeID" identifier="ExchangeID" title="CoinMarketCap" allowsEditingTextAttributes="YES" usesSingleLineMode="YES" id="uqn-vx-404" customClass="ExchangeID" customModule="ExchangeID">
-                                                <font key="font" metaFont="systemBold" size="16"/>
+                                            <textFieldCell key="cell" lineBreakMode="clipping" allowsUndo="NO" alignment="center" toolTip="ExchangeID" identifier="ExchangeID" title="CoinMarketCap" allowsEditingTextAttributes="YES" usesSingleLineMode="YES" id="uqn-vx-404" customClass="ExchangeID">
+                                                <font key="font" size="16" name="SFProDisplay-Bold"/>
                                                 <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                                 <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                 <accessibility description="ExchangeID" help="ExchangeID" identifier="ExchangeID"/>
@@ -3314,8 +3336,8 @@ DQ
                                                 <constraint firstAttribute="height" constant="22" id="TcL-jZ-FNv"/>
                                                 <constraint firstAttribute="width" constant="130" id="ZB3-dH-mNO"/>
                                             </constraints>
-                                            <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" toolTip="PairIndexLabel" identifier="PairIndexLabel" title="USDT / USDT" allowsEditingTextAttributes="YES" usesSingleLineMode="YES" id="JOp-jQ-c6I" customClass="PairIndexLabel">
-                                                <font key="font" metaFont="systemBold" size="16"/>
+                                            <textFieldCell key="cell" lineBreakMode="clipping" allowsUndo="NO" alignment="center" toolTip="PairIndexLabel" identifier="PairIndexLabel" title="USDT / USDT" allowsEditingTextAttributes="YES" usesSingleLineMode="YES" id="JOp-jQ-c6I" customClass="PairIndexLabel">
+                                                <font key="font" size="16" name="SFProDisplay-Bold"/>
                                                 <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                                 <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                 <accessibility description="PairIndexLabel" help="PairIndexLabel" identifier="PairIndexLabel"/>
@@ -3339,10 +3361,10 @@ DQ
             </objects>
             <point key="canvasLocation" x="257" y="1322.5"/>
         </scene>
-        <!--View Controller-->
+        <!--24 Hr Volume-->
         <scene sceneID="d4E-QN-UY3">
             <objects>
-                <viewController id="6pG-Ll-PJS" sceneMemberID="viewController">
+                <viewController title="24 Hr Volume" id="6pG-Ll-PJS" sceneMemberID="viewController">
                     <view key="view" identifier="24 Hr Volume View" toolTip="24 Hr Volume View" id="N31-Wu-xPp">
                         <rect key="frame" x="0.0" y="0.0" width="130" height="83"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
@@ -3405,10 +3427,10 @@ DQ
             </objects>
             <point key="canvasLocation" x="437" y="1323"/>
         </scene>
-        <!--View Controller-->
+        <!--Last Price-->
         <scene sceneID="5KA-4j-Afk">
             <objects>
-                <viewController id="cST-Ya-mjW" sceneMemberID="viewController">
+                <viewController title="Last Price" id="cST-Ya-mjW" sceneMemberID="viewController">
                     <view key="view" identifier="Last Price" toolTip="Last Price" id="nCr-b5-hOb">
                         <rect key="frame" x="0.0" y="0.0" width="130" height="83"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
@@ -3428,7 +3450,7 @@ DQ
                                 <gridCells>
                                     <gridCell row="2jt-Bo-4tJ" column="io3-fi-5j8" xPlacement="center" yPlacement="center" id="b4X-EE-ZBL">
                                         <textField key="contentView" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Dp6-Oo-84E">
-                                            <rect key="frame" x="-2" y="23" width="124" height="19"/>
+                                            <rect key="frame" x="18" y="23" width="85" height="19"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="22" id="2Ro-JG-RHm"/>
                                                 <constraint firstAttribute="width" constant="120" id="kWr-ow-2FR"/>
@@ -3473,10 +3495,10 @@ DQ
             </objects>
             <point key="canvasLocation" x="979" y="1323"/>
         </scene>
-        <!--View Controller-->
+        <!--24 Hr Low-->
         <scene sceneID="B4a-fL-aXv">
             <objects>
-                <viewController id="kc2-rT-zwn" sceneMemberID="viewController">
+                <viewController title="24 Hr Low" id="kc2-rT-zwn" sceneMemberID="viewController">
                     <view key="view" identifier="24 Hr Low" toolTip="24 Hr Low" id="lhm-qW-siw">
                         <rect key="frame" x="0.0" y="0.0" width="130" height="83"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
@@ -3541,10 +3563,10 @@ DQ
             </objects>
             <point key="canvasLocation" x="843" y="1323"/>
         </scene>
-        <!--View Controller-->
+        <!--24 Hr Change-->
         <scene sceneID="c2o-Vh-arq">
             <objects>
-                <viewController id="u1J-1B-wpW" sceneMemberID="viewController">
+                <viewController title="24 Hr Change" id="u1J-1B-wpW" sceneMemberID="viewController">
                     <view key="view" identifier="24 Hr Change" toolTip="24 Hr Change" id="BNQ-oY-uOB">
                         <rect key="frame" x="0.0" y="0.0" width="130" height="83"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
@@ -3607,10 +3629,10 @@ DQ
             </objects>
             <point key="canvasLocation" x="570" y="1323"/>
         </scene>
-        <!--MACD-->
+        <!--MACD View-->
         <scene sceneID="2oQ-Re-q8Y">
             <objects>
-                <viewController title="MACD" identifier="MACD" storyboardIdentifier="MACD" id="joE-wD-xIB" sceneMemberID="viewController">
+                <viewController title="MACD View" identifier="MACD" storyboardIdentifier="MACD" id="joE-wD-xIB" sceneMemberID="viewController">
                     <view key="view" identifier="MACD View" toolTip="MACD View" id="ULB-ep-PnV" customClass="MACDView">
                         <rect key="frame" x="0.0" y="0.0" width="450" height="100"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3985,10 +4007,10 @@ DQ
             </objects>
             <point key="canvasLocation" x="867" y="2211"/>
         </scene>
-        <!--View Controller-->
+        <!--24 Hr High-->
         <scene sceneID="B5r-Lf-WrS">
             <objects>
-                <viewController id="KL4-3O-gVl" sceneMemberID="viewController">
+                <viewController title="24 Hr High" id="KL4-3O-gVl" sceneMemberID="viewController">
                     <view key="view" identifier="24 Hr High View" toolTip="24 Hr High View" id="RaJ-J1-WE1">
                         <rect key="frame" x="0.0" y="0.0" width="130" height="83"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
@@ -4152,7 +4174,7 @@ DQ
                                     <action selector="Fibonacci:" target="wl9-Dy-q9u" id="N6C-uv-LcG"/>
                                 </connections>
                             </button>
-                            <box horizontalHuggingPriority="244" verticalHuggingPriority="750" ambiguous="YES" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="cy7-Ho-7oE">
+                            <box horizontalHuggingPriority="241" verticalHuggingPriority="750" ambiguous="YES" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="cy7-Ho-7oE">
                                 <rect key="frame" x="0.0" y="759" width="68" height="9"/>
                             </box>
                             <button identifier="Prefrences" toolTip="Prefrences" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OQx-Yi-biI">
@@ -4185,7 +4207,7 @@ DQ
                                     <action selector="Grab:" target="wl9-Dy-q9u" id="L3B-bF-uBG"/>
                                 </connections>
                             </button>
-                            <box horizontalHuggingPriority="244" verticalHuggingPriority="750" ambiguous="YES" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="eJG-Ub-sfE">
+                            <box horizontalHuggingPriority="241" verticalHuggingPriority="750" ambiguous="YES" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="eJG-Ub-sfE">
                                 <rect key="frame" x="0.0" y="632" width="68" height="9"/>
                             </box>
                         </subviews>

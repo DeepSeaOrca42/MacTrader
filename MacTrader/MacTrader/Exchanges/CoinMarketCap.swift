@@ -9,3 +9,7 @@
 import Foundation
 
 // let exchangeID = "CoinMarketCap"
+class setupCoinMarketCap {
+    var ExchangeIDTitle = "CoinMarketCap"
+    
+}

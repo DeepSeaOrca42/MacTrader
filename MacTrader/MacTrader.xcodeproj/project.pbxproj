@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8528F44521D53F6F00F25D33 /* Coinbase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8528F44421D53F6F00F25D33 /* Coinbase.swift */; };
+		8528F44721D53F8500F25D33 /* Poloniex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8528F44621D53F8500F25D33 /* Poloniex.swift */; };
 		852AA2CD21CDEFC4007B8E62 /* CoinGecko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852AA2CC21CDEFC4007B8E62 /* CoinGecko.swift */; };
 		8562ECA221CB7ECA009DAB31 /* MAMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8562ECA121CB7ECA009DAB31 /* MAMath.swift */; };
 		8587632F21BE958C0023E931 /* MarketTable.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8587632E21BE958C0023E931 /* MarketTable.plist */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8528F44421D53F6F00F25D33 /* Coinbase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coinbase.swift; sourceTree = "<group>"; };
+		8528F44621D53F8500F25D33 /* Poloniex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poloniex.swift; sourceTree = "<group>"; };
 		852AA2CC21CDEFC4007B8E62 /* CoinGecko.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinGecko.swift; sourceTree = "<group>"; };
 		8562ECA121CB7ECA009DAB31 /* MAMath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAMath.swift; sourceTree = "<group>"; };
 		8587632E21BE958C0023E931 /* MarketTable.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = MarketTable.plist; sourceTree = "<group>"; };
@@ -89,6 +93,8 @@
 			children = (
 				852AA2CC21CDEFC4007B8E62 /* CoinGecko.swift */,
 				859E8B8821CE31F600AF6950 /* CoinMarketCap.swift */,
+				8528F44421D53F6F00F25D33 /* Coinbase.swift */,
+				8528F44621D53F8500F25D33 /* Poloniex.swift */,
 			);
 			path = Exchanges;
 			sourceTree = "<group>";
@@ -285,8 +291,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				852AA2CD21CDEFC4007B8E62 /* CoinGecko.swift in Sources */,
+				8528F44721D53F8500F25D33 /* Poloniex.swift in Sources */,
 				85CBB4A721BE446C003869C6 /* ViewController.swift in Sources */,
 				8562ECA221CB7ECA009DAB31 /* MAMath.swift in Sources */,
+				8528F44521D53F6F00F25D33 /* Coinbase.swift in Sources */,
 				85CBB4A521BE446C003869C6 /* AppDelegate.swift in Sources */,
 				859E8B8921CE31F600AF6950 /* CoinMarketCap.swift in Sources */,
 			);
