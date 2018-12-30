@@ -7,3 +7,14 @@
 //
 
 import Foundation
+
+//The below code is here & not the AppDelegate so this DB can be handled seperately 
+
+/*
+let container = NSPersistentContainer(name: "Poloniex")
+container.loadPersistentStores(completionHandler: { (description, error) in
+    if let error = error {
+        fatalError("Unable to load persistent stores: \(error)")
+    }
+})
+*/

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8506502321D8988F00207FDB /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8506502121D8988F00207FDB /* DataModel.xcdatamodeld */; };
 		8528F44521D53F6F00F25D33 /* Coinbase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8528F44421D53F6F00F25D33 /* Coinbase.swift */; };
 		8528F44721D53F8500F25D33 /* Poloniex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8528F44621D53F8500F25D33 /* Poloniex.swift */; };
 		852AA2CD21CDEFC4007B8E62 /* CoinGecko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852AA2CC21CDEFC4007B8E62 /* CoinGecko.swift */; };
@@ -40,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8506502221D8988F00207FDB /* Poloniex.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Poloniex.xcdatamodel; sourceTree = "<group>"; };
+		8506502821D8A1EC00207FDB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		8528F44421D53F6F00F25D33 /* Coinbase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coinbase.swift; sourceTree = "<group>"; };
 		8528F44621D53F8500F25D33 /* Poloniex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poloniex.swift; sourceTree = "<group>"; };
 		852AA2CC21CDEFC4007B8E62 /* CoinGecko.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinGecko.swift; sourceTree = "<group>"; };
@@ -88,6 +91,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8506502721D8A1EB00207FDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8506502821D8A1EC00207FDB /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		85A6DBD921C6986B0026F9AE /* Exchanges */ = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +117,7 @@
 				85CBB4B621BE446D003869C6 /* MacTraderTests */,
 				85CBB4C121BE446E003869C6 /* MacTraderUITests */,
 				85CBB4A221BE446C003869C6 /* Products */,
+				8506502721D8A1EB00207FDB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,15 +136,16 @@
 			children = (
 				85A6DBD921C6986B0026F9AE /* Exchanges */,
 				85CBB4A421BE446C003869C6 /* AppDelegate.swift */,
+				8506502121D8988F00207FDB /* DataModel.xcdatamodeld */,
 				85CBB4A621BE446C003869C6 /* ViewController.swift */,
 				85CBB4AA21BE446D003869C6 /* Main.storyboard */,
 				8595B49521C6DA8C00A8A742 /* CoreField.plist */,
 				8562ECA121CB7ECA009DAB31 /* MAMath.swift */,
+				85CBB4AE21BE446D003869C6 /* MacTrader.entitlements */,
 				85A6DBDA21C698860026F9AE /* Prefs.plist */,
 				8587632E21BE958C0023E931 /* MarketTable.plist */,
 				85CBB4A821BE446D003869C6 /* Assets.xcassets */,
 				85CBB4AD21BE446D003869C6 /* Info.plist */,
-				85CBB4AE21BE446D003869C6 /* MacTrader.entitlements */,
 			);
 			path = MacTrader;
 			sourceTree = "<group>";
@@ -296,6 +309,7 @@
 				8562ECA221CB7ECA009DAB31 /* MAMath.swift in Sources */,
 				8528F44521D53F6F00F25D33 /* Coinbase.swift in Sources */,
 				85CBB4A521BE446C003869C6 /* AppDelegate.swift in Sources */,
+				8506502321D8988F00207FDB /* DataModel.xcdatamodeld in Sources */,
 				859E8B8921CE31F600AF6950 /* CoinMarketCap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -616,6 +630,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8506502121D8988F00207FDB /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8506502221D8988F00207FDB /* Poloniex.xcdatamodel */,
+			);
+			currentVersion = 8506502221D8988F00207FDB /* Poloniex.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 85CBB49921BE446C003869C6 /* Project object */;
 }

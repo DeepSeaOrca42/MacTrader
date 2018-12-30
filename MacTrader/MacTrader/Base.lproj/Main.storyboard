@@ -3450,7 +3450,7 @@ DQ
                                 <gridCells>
                                     <gridCell row="2jt-Bo-4tJ" column="io3-fi-5j8" xPlacement="center" yPlacement="center" id="b4X-EE-ZBL">
                                         <textField key="contentView" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Dp6-Oo-84E">
-                                            <rect key="frame" x="18" y="23" width="85" height="19"/>
+                                            <rect key="frame" x="-2" y="23" width="124" height="19"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="22" id="2Ro-JG-RHm"/>
                                                 <constraint firstAttribute="width" constant="120" id="kWr-ow-2FR"/>
