@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18C54" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
     <entity name="BalanceHistory" representedClassName="BalanceHistory" parentEntity="Pairs" syncable="YES" codeGenerationType="class">
+        <attribute name="call" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <fetchedProperty name="amount" optional="YES" syncable="YES">
             <fetchRequest name="fetchedPropertyFetchRequest" entity="BalanceHistory"/>
         </fetchedProperty>
@@ -22,18 +24,36 @@
         <fetchedProperty name="trade.history" optional="YES" syncable="YES">
             <fetchRequest name="fetchedPropertyFetchRequest" entity="BalanceHistory"/>
         </fetchedProperty>
+        <fetchIndex name="byPropertyIndex">
+            <fetchIndexElement property="call" type="Binary" order="ascending"/>
+            <fetchIndexElement property="i.d." type="Binary" order="ascending"/>
+            <fetchIndexElement property="name" type="Binary" order="ascending"/>
+        </fetchIndex>
     </entity>
-    <entity name="Definition" representedClassName="Definition" syncable="YES" codeGenerationType="class">
+    <entity name="OldPairs" representedClassName="OldPairs" parentEntity="Pairs" syncable="YES" codeGenerationType="class">
         <attribute name="call" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="i.d." optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
     </entity>
-    <entity name="Pairs" representedClassName="Pairs" parentEntity="Definition" syncable="YES" codeGenerationType="class">
+    <entity name="Pairs" representedClassName="Pairs" syncable="YES" codeGenerationType="class">
         <attribute name="call" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="i.d." optional="YES" attributeType="Float" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="i.d." optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="exchange" optional="YES" maxCount="1" deletionRule="Nullify" syncable="YES"/>
+        <relationship name="market" optional="YES" maxCount="1" deletionRule="Nullify" syncable="YES"/>
+        <fetchIndex name="byPropertyIndex">
+            <fetchIndexElement property="call" type="Binary" order="ascending"/>
+            <fetchIndexElement property="i.d." type="Binary" order="ascending"/>
+            <fetchIndexElement property="name" type="Binary" order="ascending"/>
+        </fetchIndex>
     </entity>
     <entity name="Properties" representedClassName="Properties" parentEntity="Pairs" syncable="YES" codeGenerationType="class">
+        <attribute name="call" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <fetchedProperty name="change" optional="YES" syncable="YES">
             <fetchRequest name="fetchedPropertyFetchRequest" entity="Properties"/>
         </fetchedProperty>
@@ -52,10 +72,19 @@
         <fetchedProperty name="day.volume" optional="YES" syncable="YES">
             <fetchRequest name="fetchedPropertyFetchRequest" entity="Properties"/>
         </fetchedProperty>
-        <fetchedProperty name="fetchedProperty" optional="YES" syncable="YES">
+        <fetchedProperty name="last.price" optional="YES" syncable="YES">
             <fetchRequest name="fetchedPropertyFetchRequest" entity="Properties"/>
         </fetchedProperty>
-        <fetchedProperty name="last.price" optional="YES" syncable="YES">
+        <fetchedProperty name="month.change" optional="YES" syncable="YES">
+            <fetchRequest name="fetchedPropertyFetchRequest" entity="Properties"/>
+        </fetchedProperty>
+        <fetchedProperty name="month.high" optional="YES" syncable="YES">
+            <fetchRequest name="fetchedPropertyFetchRequest" entity="Properties"/>
+        </fetchedProperty>
+        <fetchedProperty name="month.low" optional="YES" syncable="YES">
+            <fetchRequest name="fetchedPropertyFetchRequest" entity="Properties"/>
+        </fetchedProperty>
+        <fetchedProperty name="month.volume" optional="YES" syncable="YES">
             <fetchRequest name="fetchedPropertyFetchRequest" entity="Properties"/>
         </fetchedProperty>
         <fetchedProperty name="rss" optional="YES" syncable="YES">
@@ -67,14 +96,40 @@
         <fetchedProperty name="twitter" optional="YES" syncable="YES">
             <fetchRequest name="fetchedPropertyFetchRequest" entity="Properties"/>
         </fetchedProperty>
-        <fetchedProperty name="volume" optional="YES" syncable="YES">
+        <fetchedProperty name="week.change" optional="YES" syncable="YES">
             <fetchRequest name="fetchedPropertyFetchRequest" entity="Properties"/>
         </fetchedProperty>
+        <fetchedProperty name="week.high" optional="YES" syncable="YES">
+            <fetchRequest name="fetchedPropertyFetchRequest" entity="Properties"/>
+        </fetchedProperty>
+        <fetchedProperty name="week.low" optional="YES" syncable="YES">
+            <fetchRequest name="fetchedPropertyFetchRequest" entity="Properties"/>
+        </fetchedProperty>
+        <fetchedProperty name="week.volume" optional="YES" syncable="YES">
+            <fetchRequest name="fetchedPropertyFetchRequest" entity="Properties"/>
+        </fetchedProperty>
+        <fetchedProperty name="year.change" optional="YES" syncable="YES">
+            <fetchRequest name="fetchedPropertyFetchRequest" entity="Properties"/>
+        </fetchedProperty>
+        <fetchedProperty name="year.high" optional="YES" syncable="YES">
+            <fetchRequest name="fetchedPropertyFetchRequest" entity="Properties"/>
+        </fetchedProperty>
+        <fetchedProperty name="year.low" optional="YES" syncable="YES">
+            <fetchRequest name="fetchedPropertyFetchRequest" entity="Properties"/>
+        </fetchedProperty>
+        <fetchedProperty name="year.volume" optional="YES" syncable="YES">
+            <fetchRequest name="fetchedPropertyFetchRequest" entity="Properties"/>
+        </fetchedProperty>
+        <fetchIndex name="byPropertyIndex">
+            <fetchIndexElement property="call" type="Binary" order="ascending"/>
+            <fetchIndexElement property="name" type="Binary" order="ascending"/>
+            <fetchIndexElement property="i.d." type="Binary" order="ascending"/>
+        </fetchIndex>
     </entity>
     <elements>
-        <element name="Properties" positionX="393.66015625" positionY="140.41015625" width="128" height="236"/>
-        <element name="Definition" positionX="18" positionY="117" width="128" height="88"/>
-        <element name="Pairs" positionX="125.37890625" positionY="265.25" width="128" height="88"/>
-        <element name="BalanceHistory" positionX="223.859375" positionY="-2.87109375" width="128" height="161"/>
+        <element name="BalanceHistory" positionX="-34.11328125" positionY="367.234375" width="128" height="191"/>
+        <element name="Pairs" positionX="125.37890625" positionY="265.25" width="128" height="148"/>
+        <element name="Properties" positionX="322.1640625" positionY="269.6953125" width="128" height="416"/>
+        <element name="OldPairs" positionX="126" positionY="468" width="128" height="118"/>
     </elements>
 </model>
