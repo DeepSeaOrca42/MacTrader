@@ -37,13 +37,13 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         let dirURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).last
         let fileURL = URL(string: "CoinGeckoDataModel.sql", relativeTo: dirURL)
         do {
-            try psc.addPersistentStore(ofType: NSSQLiteStoreType, configurationName: nil, at: fileURL, options: nil)
+            try psc.addPersistentStore(ofType: NSSQLiteStoreType, configurationName: CoinGeckoDataModel.sql, at: fileURL, options: nil)
         } catch {
             fatalError("Error configuring persistent store: \(error)")
         }
         
         
-        let CoinMarketCapcontainer = NSPersistentContainer(name: "CoinMarketCap")
+        let CoinMarketCapContainer = NSPersistentContainer(name: "CoinMarketCap")
         CoinMarketCapContainer.loadPersistentStores(completionHandler: { (description, error) in
             if let error = error {
                 fatalError("Unable to load persistent stores: \(error)")

@@ -95,13 +95,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		85A6DBD921C6986B0026F9AE /* Exchanges */ = {
+		85A6DBD921C6986B0026F9AE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				8528F44421D53F6F00F25D33 /* Coinbase.swift */,
 				8528F44621D53F8500F25D33 /* Poloniex.swift */,
 			);
-			path = Exchanges;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		85CBB49821BE446C003869C6 = {
@@ -128,7 +128,7 @@
 		85CBB4A321BE446C003869C6 /* MacTrader */ = {
 			isa = PBXGroup;
 			children = (
-				85A6DBD921C6986B0026F9AE /* Exchanges */,
+				85A6DBD921C6986B0026F9AE /* Resources */,
 				85CBB4A421BE446C003869C6 /* AppDelegate.swift */,
 				8506502121D8988F00207FDB /* DataModel.xcdatamodeld */,
 				85CBB4A621BE446C003869C6 /* ViewController.swift */,
