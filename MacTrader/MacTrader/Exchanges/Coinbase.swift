@@ -7,10 +7,11 @@
 //
 
 import Foundation
+import CoreData
 
 // Below is commented out so it can have it's own container. But isn't in the AppDelegate so this can bbe handled seperately. 
 
-let container = NSPersistentContainer(name: "CoinMarketCap")
+let container = NSPersistentContainer(name: "Coinbase")
 container.loadPersistentStores(completionHandler: { (description, error) in
     if let error = error {
         fatalError("Unable to load persistent stores: \(error)")

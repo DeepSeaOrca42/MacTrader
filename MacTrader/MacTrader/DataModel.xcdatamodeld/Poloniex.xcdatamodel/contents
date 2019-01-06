@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18C54" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <entity name="BalanceHistory" representedClassName="BalanceHistory" parentEntity="Pairs" syncable="YES" codeGenerationType="class">
-        <attribute name="call" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    <entity name="BalanceHistory" representedClassName="BalanceHistory" syncable="YES" codeGenerationType="class">
+        <attribute name="exchange" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pair" optional="YES" attributeType="String" syncable="YES"/>
         <fetchedProperty name="amount" optional="YES" syncable="YES">
             <fetchRequest name="fetchedPropertyFetchRequest" entity="BalanceHistory"/>
         </fetchedProperty>
@@ -12,124 +12,77 @@
         <fetchedProperty name="commission" optional="YES" syncable="YES">
             <fetchRequest name="fetchedPropertyFetchRequest" entity="BalanceHistory"/>
         </fetchedProperty>
-        <fetchedProperty name="commpercent" optional="YES" syncable="YES">
+        <fetchedProperty name="commissionpercent" optional="YES" syncable="YES">
             <fetchRequest name="fetchedPropertyFetchRequest" entity="BalanceHistory"/>
         </fetchedProperty>
-        <fetchedProperty name="date" optional="YES" syncable="YES">
+        <fetchedProperty name="datetime" optional="YES" syncable="YES">
             <fetchRequest name="fetchedPropertyFetchRequest" entity="BalanceHistory"/>
         </fetchedProperty>
-        <fetchedProperty name="time" optional="YES" syncable="YES">
+        <fetchedProperty name="price" optional="YES" syncable="YES">
             <fetchRequest name="fetchedPropertyFetchRequest" entity="BalanceHistory"/>
         </fetchedProperty>
-        <fetchedProperty name="trade.history" optional="YES" syncable="YES">
+        <fetchedProperty name="total" optional="YES" syncable="YES">
             <fetchRequest name="fetchedPropertyFetchRequest" entity="BalanceHistory"/>
         </fetchedProperty>
-        <fetchIndex name="byPropertyIndex">
-            <fetchIndexElement property="call" type="Binary" order="ascending"/>
-            <fetchIndexElement property="i.d." type="Binary" order="ascending"/>
-            <fetchIndexElement property="name" type="Binary" order="ascending"/>
-        </fetchIndex>
-    </entity>
-    <entity name="OldPairs" representedClassName="OldPairs" parentEntity="Pairs" syncable="YES" codeGenerationType="class">
-        <attribute name="call" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
-        <attribute name="i.d." optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
-        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="time" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <fetchedProperty name="type" optional="YES" syncable="YES">
+            <fetchRequest name="fetchedPropertyFetchRequest" entity="BalanceHistory"/>
+        </fetchedProperty>
     </entity>
     <entity name="Pairs" representedClassName="Pairs" syncable="YES" codeGenerationType="class">
-        <attribute name="call" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
-        <attribute name="i.d." optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
-        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="time" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
-        <relationship name="exchange" optional="YES" maxCount="1" deletionRule="Nullify" syncable="YES"/>
-        <relationship name="market" optional="YES" maxCount="1" deletionRule="Nullify" syncable="YES"/>
-        <fetchIndex name="byPropertyIndex">
-            <fetchIndexElement property="call" type="Binary" order="ascending"/>
-            <fetchIndexElement property="i.d." type="Binary" order="ascending"/>
-            <fetchIndexElement property="name" type="Binary" order="ascending"/>
-        </fetchIndex>
+        <attribute name="call" attributeType="String" preserveAfterDeletion="YES" syncable="YES"/>
+        <attribute name="exchange" optional="YES" attributeType="String" preserveAfterDeletion="YES" syncable="YES"/>
+        <attribute name="id" attributeType="Integer 16" usesScalarValueType="YES" preserveAfterDeletion="YES" syncable="YES"/>
+        <attribute name="market" attributeType="String" preserveAfterDeletion="YES" syncable="YES"/>
+        <attribute name="name" attributeType="String" preserveAfterDeletion="YES" syncable="YES"/>
+        <attribute name="pair" attributeType="String" preserveAfterDeletion="YES" syncable="YES"/>
     </entity>
-    <entity name="Properties" representedClassName="Properties" parentEntity="Pairs" syncable="YES" codeGenerationType="class">
-        <attribute name="call" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    <entity name="Properties" representedClassName="Properties" isAbstract="YES" parentEntity="Relationships" syncable="YES" codeGenerationType="class">
         <fetchedProperty name="change" optional="YES" syncable="YES">
             <fetchRequest name="fetchedPropertyFetchRequest" entity="Properties"/>
         </fetchedProperty>
-        <fetchedProperty name="date" optional="YES" syncable="YES">
+        <fetchedProperty name="close" optional="YES" syncable="YES">
             <fetchRequest name="fetchedPropertyFetchRequest" entity="Properties"/>
         </fetchedProperty>
-        <fetchedProperty name="day.change" optional="YES" syncable="YES">
+        <fetchedProperty name="datetime" optional="YES" syncable="YES">
             <fetchRequest name="fetchedPropertyFetchRequest" entity="Properties"/>
         </fetchedProperty>
-        <fetchedProperty name="day.high" optional="YES" syncable="YES">
+        <fetchedProperty name="high" optional="YES" syncable="YES">
             <fetchRequest name="fetchedPropertyFetchRequest" entity="Properties"/>
         </fetchedProperty>
-        <fetchedProperty name="day.low" optional="YES" syncable="YES">
+        <fetchedProperty name="low" optional="YES" syncable="YES">
             <fetchRequest name="fetchedPropertyFetchRequest" entity="Properties"/>
         </fetchedProperty>
-        <fetchedProperty name="day.volume" optional="YES" syncable="YES">
+        <fetchedProperty name="open" optional="YES" syncable="YES">
             <fetchRequest name="fetchedPropertyFetchRequest" entity="Properties"/>
         </fetchedProperty>
-        <fetchedProperty name="last.price" optional="YES" syncable="YES">
-            <fetchRequest name="fetchedPropertyFetchRequest" entity="Properties"/>
-        </fetchedProperty>
-        <fetchedProperty name="month.change" optional="YES" syncable="YES">
-            <fetchRequest name="fetchedPropertyFetchRequest" entity="Properties"/>
-        </fetchedProperty>
-        <fetchedProperty name="month.high" optional="YES" syncable="YES">
-            <fetchRequest name="fetchedPropertyFetchRequest" entity="Properties"/>
-        </fetchedProperty>
-        <fetchedProperty name="month.low" optional="YES" syncable="YES">
-            <fetchRequest name="fetchedPropertyFetchRequest" entity="Properties"/>
-        </fetchedProperty>
-        <fetchedProperty name="month.volume" optional="YES" syncable="YES">
+        <fetchedProperty name="pair" optional="YES" syncable="YES">
             <fetchRequest name="fetchedPropertyFetchRequest" entity="Properties"/>
         </fetchedProperty>
         <fetchedProperty name="rss" optional="YES" syncable="YES">
             <fetchRequest name="fetchedPropertyFetchRequest" entity="Properties"/>
         </fetchedProperty>
-        <fetchedProperty name="time" optional="YES" syncable="YES">
-            <fetchRequest name="fetchedPropertyFetchRequest" entity="Properties"/>
-        </fetchedProperty>
         <fetchedProperty name="twitter" optional="YES" syncable="YES">
             <fetchRequest name="fetchedPropertyFetchRequest" entity="Properties"/>
         </fetchedProperty>
-        <fetchedProperty name="week.change" optional="YES" syncable="YES">
+        <fetchedProperty name="volume" optional="YES" syncable="YES">
             <fetchRequest name="fetchedPropertyFetchRequest" entity="Properties"/>
         </fetchedProperty>
-        <fetchedProperty name="week.high" optional="YES" syncable="YES">
-            <fetchRequest name="fetchedPropertyFetchRequest" entity="Properties"/>
-        </fetchedProperty>
-        <fetchedProperty name="week.low" optional="YES" syncable="YES">
-            <fetchRequest name="fetchedPropertyFetchRequest" entity="Properties"/>
-        </fetchedProperty>
-        <fetchedProperty name="week.volume" optional="YES" syncable="YES">
-            <fetchRequest name="fetchedPropertyFetchRequest" entity="Properties"/>
-        </fetchedProperty>
-        <fetchedProperty name="year.change" optional="YES" syncable="YES">
-            <fetchRequest name="fetchedPropertyFetchRequest" entity="Properties"/>
-        </fetchedProperty>
-        <fetchedProperty name="year.high" optional="YES" syncable="YES">
-            <fetchRequest name="fetchedPropertyFetchRequest" entity="Properties"/>
-        </fetchedProperty>
-        <fetchedProperty name="year.low" optional="YES" syncable="YES">
-            <fetchRequest name="fetchedPropertyFetchRequest" entity="Properties"/>
-        </fetchedProperty>
-        <fetchedProperty name="year.volume" optional="YES" syncable="YES">
-            <fetchRequest name="fetchedPropertyFetchRequest" entity="Properties"/>
-        </fetchedProperty>
-        <fetchIndex name="byPropertyIndex">
-            <fetchIndexElement property="call" type="Binary" order="ascending"/>
-            <fetchIndexElement property="name" type="Binary" order="ascending"/>
-            <fetchIndexElement property="i.d." type="Binary" order="ascending"/>
-        </fetchIndex>
     </entity>
+    <entity name="Relationships" representedClassName="Relationships" parentEntity="Pairs" syncable="YES" codeGenerationType="class">
+        <relationship name="day" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Properties" syncable="YES"/>
+        <relationship name="fiveMin" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Properties" syncable="YES"/>
+        <relationship name="halfHour" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Properties" syncable="YES"/>
+        <relationship name="hour" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Properties" syncable="YES"/>
+        <relationship name="month" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Properties" syncable="YES"/>
+        <relationship name="quarterHour" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Properties" syncable="YES"/>
+        <relationship name="week" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Properties" syncable="YES"/>
+        <relationship name="year" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Properties" syncable="YES"/>
+    </entity>
+    <configuration name="History"/>
     <elements>
-        <element name="BalanceHistory" positionX="-34.11328125" positionY="367.234375" width="128" height="191"/>
-        <element name="Pairs" positionX="125.37890625" positionY="265.25" width="128" height="148"/>
-        <element name="Properties" positionX="322.1640625" positionY="269.6953125" width="128" height="416"/>
-        <element name="OldPairs" positionX="126" positionY="468" width="128" height="118"/>
+        <element name="Pairs" positionX="183.36328125" positionY="137.1640625" width="128" height="133"/>
+        <element name="Properties" positionX="390.1953125" positionY="322.9140625" width="128" height="206"/>
+        <element name="Relationships" positionX="187.8125" positionY="316.9140625" width="128" height="163"/>
+        <element name="BalanceHistory" positionX="-16.671875" positionY="316.10546875" width="128" height="206"/>
     </elements>
 </model>
