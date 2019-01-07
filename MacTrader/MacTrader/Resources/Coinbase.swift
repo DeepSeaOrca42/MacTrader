@@ -11,16 +11,13 @@ import CoreData
 
 // Below is commented out so it can have it's own container. But isn't in the AppDelegate so this can bbe handled seperately. 
 
-let container = NSPersistentContainer(name: "Coinbase")
-container.loadPersistentStores(completionHandler: { (description, error) in
+let CoinbbaseContainer = NSPersistentContainer(name: "Coinbase")
+CoinbaseContainer.loadPersistentStores(completionHandler: { (description, error) in
     if let error = error {
         fatalError("Unable to load persistent stores: \(error)")
     }
 })
 
-// After you create the managed object model, you can associate the NSPersistentStoreCoordinator with the model.
-
-let psc = NSPersistentStoreCoordinator(managedObjectModel: mom)
 
 /* If you want Core Data to persist your data model to disk, you will need to inform the NSPersistentStoreCoordinator of where you want the file to reside and what format you want to use, as shown in the following example. There are advantages and disadvantages to each of the store types that are available. Refer to the NSPersistentStoreCoordinator documentation for details on each store type. */
 
