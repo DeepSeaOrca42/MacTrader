@@ -10,6 +10,8 @@
 		8506502321D8988F00207FDB /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8506502121D8988F00207FDB /* DataModel.xcdatamodeld */; };
 		8528F44521D53F6F00F25D33 /* Coinbase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8528F44421D53F6F00F25D33 /* Coinbase.swift */; };
 		8528F44721D53F8500F25D33 /* Poloniex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8528F44621D53F8500F25D33 /* Poloniex.swift */; };
+		85422B6421E57429000C62DD /* Chart.scn in Resources */ = {isa = PBXBuildFile; fileRef = 85422B6321E57429000C62DD /* Chart.scn */; };
+		85422B6621E5743E000C62DD /* MacD.scn in Resources */ = {isa = PBXBuildFile; fileRef = 85422B6521E5743E000C62DD /* MacD.scn */; };
 		8562ECA221CB7ECA009DAB31 /* MAMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8562ECA121CB7ECA009DAB31 /* MAMath.swift */; };
 		8587632F21BE958C0023E931 /* MarketTable.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8587632E21BE958C0023E931 /* MarketTable.plist */; };
 		8595B49621C6DA8C00A8A742 /* CoreField.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8595B49521C6DA8C00A8A742 /* CoreField.plist */; };
@@ -43,6 +45,8 @@
 		8506502821D8A1EC00207FDB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		8528F44421D53F6F00F25D33 /* Coinbase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coinbase.swift; sourceTree = "<group>"; };
 		8528F44621D53F8500F25D33 /* Poloniex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poloniex.swift; sourceTree = "<group>"; };
+		85422B6321E57429000C62DD /* Chart.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Chart.scn; sourceTree = "<group>"; };
+		85422B6521E5743E000C62DD /* MacD.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = MacD.scn; sourceTree = "<group>"; };
 		8562ECA121CB7ECA009DAB31 /* MAMath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAMath.swift; sourceTree = "<group>"; };
 		8587632E21BE958C0023E931 /* MarketTable.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = MarketTable.plist; sourceTree = "<group>"; };
 		8595B49521C6DA8C00A8A742 /* CoreField.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = CoreField.plist; sourceTree = "<group>"; };
@@ -95,6 +99,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		85422B6721E57452000C62DD /* scnassets */ = {
+			isa = PBXGroup;
+			children = (
+				85422B6321E57429000C62DD /* Chart.scn */,
+				85422B6521E5743E000C62DD /* MacD.scn */,
+			);
+			path = scnassets;
+			sourceTree = "<group>";
+		};
 		85A6DBD921C6986B0026F9AE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +153,7 @@
 				8587632E21BE958C0023E931 /* MarketTable.plist */,
 				85CBB4A821BE446D003869C6 /* Assets.xcassets */,
 				85CBB4AD21BE446D003869C6 /* Info.plist */,
+				85422B6721E57452000C62DD /* scnassets */,
 			);
 			path = MacTrader;
 			sourceTree = "<group>";
@@ -270,7 +284,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				85CBB4A921BE446D003869C6 /* Assets.xcassets in Resources */,
+				85422B6421E57429000C62DD /* Chart.scn in Resources */,
 				8595B49621C6DA8C00A8A742 /* CoreField.plist in Resources */,
+				85422B6621E5743E000C62DD /* MacD.scn in Resources */,
 				85CBB4AC21BE446D003869C6 /* Main.storyboard in Resources */,
 				8587632F21BE958C0023E931 /* MarketTable.plist in Resources */,
 			);
